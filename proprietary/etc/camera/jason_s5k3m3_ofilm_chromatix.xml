@@ -101,6 +101,28 @@ special_mode_mask values:
       <A3Preview>jason_s5k3m3_semco_zsl_preview_ad5816g</A3Preview>
       <A3Video>jason_s5k3m3_semco_zsl_video_ad5816g</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="HDR MODE">
+      <ISPPreview>jason_s5k3m3_semco_snapshot</ISPPreview>
+      <ISPSnapshot>jason_s5k3m3_semco_snapshot_hdr</ISPSnapshot>
+      <ISPVideo>jason_s5k3m3_semco_snapshot</ISPVideo>
+      <CPPPreview>jason_s5k3m3_semco_cpp_preview</CPPPreview>
+      <CPPSnapshot>jason_s5k3m3_semco_cpp_snapshot_hdr</CPPSnapshot>
+      <CPPVideo>jason_s5k3m3_semco_cpp_video</CPPVideo>
+      <CPPLiveshot>jason_s5k3m3_semco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>jason_s5k3m3_semco_zsl_hdr_preview_ad5816g</A3Preview>
+      <A3Video>jason_s5k3m3_semco_zsl_video_ad5816g</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0"  special_mode_mask="HHT MODE">
+      <ISPPreview>jason_s5k3m3_semco_snapshot</ISPPreview>
+      <ISPSnapshot>jason_s5k3m3_semco_snapshot_hht</ISPSnapshot>
+      <ISPVideo>jason_s5k3m3_semco_snapshot</ISPVideo>
+      <CPPPreview>jason_s5k3m3_semco_cpp_preview</CPPPreview>
+      <CPPSnapshot>jason_s5k3m3_semco_cpp_snapshot_hht</CPPSnapshot>
+      <CPPVideo>jason_s5k3m3_semco_cpp_video</CPPVideo>
+      <CPPLiveshot>jason_s5k3m3_semco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>jason_s5k3m3_semco_zsl_hht_preview_ad5816g</A3Preview>
+      <A3Video>jason_s5k3m3_semco_zsl_video_ad5816g</A3Video>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
       <ISPPreview>jason_s5k3m3_semco_video_4k</ISPPreview>
       <ISPSnapshot>jason_s5k3m3_semco_video_4k</ISPSnapshot>

@@ -185,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/jason/proprietary/etc/thermal-engine-sdm660-high.conf:system/etc/thermal-engine-sdm660-high.conf \
     vendor/xiaomi/jason/proprietary/etc/thermal-engine-sdm660-map.conf:system/etc/thermal-engine-sdm660-map.conf \
+    vendor/xiaomi/jason/proprietary/etc/thermal-engine-sdm660-nolimits.conf:system/etc/thermal-engine-sdm660-nolimits.conf \
     vendor/xiaomi/jason/proprietary/etc/thermal-engine-sdm660.conf:system/etc/thermal-engine-sdm660.conf \
     vendor/xiaomi/jason/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/xiaomi/jason/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
@@ -931,6 +932,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_snapshot_hdr.so:system/vendor/lib/libchromatix_jason_imx386_semco_snapshot_hdr.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_video.so:system/vendor/lib/libchromatix_jason_imx386_semco_video.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_video_hdr.so:system/vendor/lib/libchromatix_jason_imx386_semco_video_hdr.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_zsl_hdr_preview.so:system/vendor/lib/libchromatix_jason_imx386_semco_zsl_hdr_preview.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_zsl_preview.so:system/vendor/lib/libchromatix_jason_imx386_semco_zsl_preview.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_semco_zsl_video.so:system/vendor/lib/libchromatix_jason_imx386_semco_zsl_video.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_ofilm_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_jason_s5k3m3_ofilm_1080p_preview_ad5816g.so \
@@ -976,6 +978,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_preview.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_preview.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_downscale.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_hdr.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_hht.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_snapshot_upscale.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_video.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_video.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_video_4k.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_cpp_video_4k.so \
@@ -992,7 +996,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_postproc.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_postproc.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_preview.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_preview.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot_hdr.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot_hdr.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot_hht.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_snapshot_hht.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_video_4k.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_video_4k.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_hdr_preview_ad5816g.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_hdr_preview_ad5816g.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_hht_preview_ad5816g.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_hht_preview_ad5816g.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_preview_ad5816g.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_jason_s5k3m3_semco_zsl_video_ad5816g.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_s5k3p8sp_sunny_a3_default_preview.so:system/vendor/lib/libchromatix_jason_s5k3p8sp_sunny_a3_default_preview.so \
