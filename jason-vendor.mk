@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/jason/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/jason/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
+    vendor/xiaomi/jason/proprietary/etc/morpho_lowlight4.0.xml:system/etc/morpho_lowlight4.0.xml \
     vendor/xiaomi/jason/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/jason/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/jason/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -164,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
     vendor/xiaomi/jason/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/jason/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
+    vendor/xiaomi/jason/proprietary/lib/libmicamera.ic.so:system/lib/libmicamera.ic.so \
     vendor/xiaomi/jason/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/jason/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/jason/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
@@ -211,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/xiaomi/jason/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -219,11 +220,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/xiaomi/jason/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:system/vendor/lib/libSonyIMX386PdafLibrary.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libStereoRectification.so:system/vendor/lib/libStereoRectification.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libVDClearShot.so:system/vendor/lib/libVDClearShot.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libXMFD_AgeGender.so:system/vendor/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/lib_hdr_dxo.so:system/vendor/lib/lib_hdr_dxo.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/lib_lowlight.so:system/vendor/lib/lib_lowlight.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/lib_lowlight_dxo.so:system/vendor/lib/lib_lowlight_dxo.so \
@@ -251,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/xiaomi/jason/proprietary/vendor/lib/libcaffe.so:system/vendor/lib/libcaffe.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/jason/proprietary/vendor/lib/libchromatix_jason_imx386_ofilm_4K_preview.so:system/vendor/lib/libchromatix_jason_imx386_ofilm_4K_preview.so \
