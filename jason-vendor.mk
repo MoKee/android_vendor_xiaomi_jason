@@ -178,8 +178,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jason/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/jason/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/xiaomi/jason/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
-    vendor/xiaomi/jason/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/jason/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/jason/proprietary/lib64/hw/fingerprint.fpc.sdm660.so:system/lib64/hw/fingerprint.fpc.sdm660.so \
+    vendor/xiaomi/jason/proprietary/lib64/hw/fingerprint.goodix.sdm660.so:system/lib64/hw/fingerprint.goodix.sdm660.so \
     vendor/xiaomi/jason/proprietary/lib64/libcalapi.so:system/lib64/libcalapi.so \
     vendor/xiaomi/jason/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/jason/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
